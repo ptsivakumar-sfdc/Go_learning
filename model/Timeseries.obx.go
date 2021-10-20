@@ -24,7 +24,7 @@ var TimeseriesBinding = timeseries_EntityInfo{
 
 // Timeseries_ contains type-based Property helpers to facilitate some common operations such as Queries.
 var Timeseries_ = struct {
-	Id                    *objectbox.PropertyInt64
+	Id                    *objectbox.PropertyUint64
 	Did                   *objectbox.PropertyString
 	Pid                   *objectbox.PropertyString
 	DateCreated           *objectbox.PropertyInt64
