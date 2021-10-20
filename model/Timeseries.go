@@ -20,7 +20,7 @@ package model
 
 // TimeSeries model
 type Timeseries struct {
-	Id           int64
+	Id           uint64
 	Did          string
 	Pid          string
 	DateCreated  int64
