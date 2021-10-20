@@ -1,0 +1,90 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:1064176722615248590",
+      "lastPropertyId": "13:5585062268466193739",
+      "name": "Timeseries",
+      "properties": [
+        {
+          "id": "1:1265355858493333374",
+          "name": "Id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:6901087461435634470",
+          "name": "Did",
+          "type": 9
+        },
+        {
+          "id": "3:3574902907174669102",
+          "name": "Pid",
+          "type": 9
+        },
+        {
+          "id": "4:522713463546252438",
+          "name": "DateCreated",
+          "type": 6
+        },
+        {
+          "id": "5:2658877197262835326",
+          "name": "DateFinished",
+          "type": 6
+        },
+        {
+          "id": "6:1072713803773858765",
+          "name": "temperature",
+          "type": 6
+        },
+        {
+          "id": "7:4798755276454237839",
+          "name": "ph",
+          "type": 6
+        },
+        {
+          "id": "8:3495782111820963363",
+          "name": "orp",
+          "type": 6
+        },
+        {
+          "id": "9:7984169039690245580",
+          "name": "conductivity",
+          "type": 6
+        },
+        {
+          "id": "10:4650219007547502262",
+          "name": "isc",
+          "type": 6
+        },
+        {
+          "id": "11:2452909885401444526",
+          "name": "dissolved_oxygen",
+          "type": 6
+        },
+        {
+          "id": "12:4995451112588358737",
+          "name": "percent_concentration",
+          "type": 6
+        },
+        {
+          "id": "13:5585062268466193739",
+          "name": "custom_dcloop",
+          "type": 6
+        }
+      ]
+    }
+  ],
+  "lastEntityId": "1:1064176722615248590",
+  "lastIndexId": "",
+  "lastRelationId": "",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [],
+  "retiredRelationUids": [],
+  "version": 1
+}
